@@ -73,9 +73,3 @@ The dataset was sourced from the **digital discussion room of the TCSiON learnin
 7. **Website Hosting**
 
 ---
-
-This README outlines a compelling approach to developing a smartphone feature classification and ranking application, combining data analysis with practical applications. Dive in to explore the world of smartphones!
-
----
-
-Feel free to modify any section or wording to better fit your style!
