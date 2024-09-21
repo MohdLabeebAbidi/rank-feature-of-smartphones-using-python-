@@ -1,43 +1,82 @@
-# RANK-FEATURES-OF-A-SMARTPHONE---BUILD-A-PYTHON-APPLICATION-TO-CLASSIFY-AND-RANK-DATASET
-ABSTRACT
-Smartphones are vulnerable to fraudulent use despite having strong authentication mechanisms. Active authentication based on behavioural biometrics is a solution to protect the privacy of data in smart devices. Machine-learning-based frameworks are effective for active authentication. However, the success of any machine-learning-based techniques depends highly on the relevancy of the data in hand for training. In addition, the training time should be very efficient. 
-About Dataset
-This dataset contains information on battery power, clock speed, dual sim, four g, int memory, touch screen, Wi-Fi, price range, ram, talk time etc.
-Data Collection
-The dataset, obtained from the digital discussion room of TCSiON learning platform. 
-Problem Statement
-The objective of the project is to build a python application to classify and rank dataset i.e. to rank features of a smartphone. 
-Attribute information
-Name	Description
-battery_power	total energy a battery can store in one time measured in mAh
-blue	has Bluetooth or not
-clock_speed	the speed at which microprocessor executes instructions
-dual_sim	has dual sim support or not
-fc	front camera megapixels
-four_g	has 4G or not
-int_memory	internal memory in Gigabytes
-m_dep	mobile depth in cm
-mobile_wt	weight of mobile phone
-n_crores	number of cores of the processor
-pc	primary camera megapixels
-px_height	pixel resolution height
-px_width	pixel resolution width
-ram	random access memory in Megabytes
-sc_h	screen height of mobile in cm
-sc_w	screen width of mobile in cm
-talk_time	the longest time that a single battery charge will last
-three_g	has 3G or not
-touch_screen	has touch screen or not
-wifi	has wifi or not
-price_range	this is the target variable with a value of 0(low cost), 1(medium cost), 2(high cost) and 3(very high cost) 
+Here’s a revised version of your README file that is more concise, organized, and visually appealing. It emphasizes key points and makes the structure clearer for readers.
 
-Steps to be followed
-•	Accurate reading of the data
-•	Understanding the data very well
-•	Data visualizations
-•	Data Pre-processing
-•	Predictive Modelling
-•	Ranking
-•	Website hosting
+---
 
- 
+# Rank Features of a Smartphone
+### Build a Python Application to Classify and Rank Dataset
+
+---
+
+## 📄 Abstract
+Smartphones, despite robust authentication mechanisms, remain susceptible to fraudulent use. **Active authentication**, leveraging behavioral biometrics, can safeguard data privacy in smart devices. The efficacy of this approach relies heavily on the **relevance of training data** and efficient training times.
+
+---
+
+## 📊 Dataset Overview
+This dataset encompasses vital smartphone features, including:
+
+- **Battery Power**: Total energy stored (mAh)
+- **Clock Speed**: Microprocessor instruction execution speed
+- **Dual SIM**: Dual SIM support
+- **4G Support**: Availability of 4G connectivity
+- **Internal Memory**: Storage capacity (GB)
+- **RAM**: Random Access Memory (MB)
+- **Price Range**: Target variable indicating cost levels (0-3)
+
+---
+
+## 📥 Data Collection
+The dataset was sourced from the **digital discussion room of the TCSiON learning platform**.
+
+---
+
+## 🎯 Problem Statement
+**Objective**: Develop a Python application that classifies and ranks smartphone features based on dataset attributes.
+
+---
+
+## 🏷️ Attribute Information
+
+| **Name**           | **Description**                                            |
+|--------------------|----------------------------------------------------------|
+| **battery_power**   | Total energy capacity (mAh)                              |
+| **blue**           | Bluetooth availability                                    |
+| **clock_speed**    | Speed of microprocessor execution                         |
+| **dual_sim**       | Dual SIM support status                                  |
+| **fc**             | Front camera megapixels                                   |
+| **four_g**         | 4G availability                                          |
+| **int_memory**     | Internal memory (GB)                                     |
+| **m_dep**          | Mobile depth (cm)                                       |
+| **mobile_wt**      | Weight of the mobile phone                                |
+| **n_crores**       | Number of processor cores                                 |
+| **pc**             | Primary camera megapixels                                  |
+| **px_height**      | Pixel resolution height                                   |
+| **px_width**       | Pixel resolution width                                    |
+| **ram**            | Random Access Memory (MB)                                 |
+| **sc_h**           | Screen height (cm)                                      |
+| **sc_w**           | Screen width (cm)                                       |
+| **talk_time**      | Duration of battery life on a single charge              |
+| **three_g**        | 3G availability                                          |
+| **touch_screen**    | Touchscreen availability                                  |
+| **wifi**           | Wi-Fi availability                                       |
+| **price_range**    | Target variable: 0 (low), 1 (medium), 2 (high), 3 (very high) |
+
+---
+
+## 🔍 Steps to Follow
+
+1. **Accurate Data Reading**
+2. **In-depth Data Understanding**
+3. **Data Visualizations**
+4. **Data Pre-processing**
+5. **Predictive Modeling**
+6. **Feature Ranking**
+7. **Website Hosting**
+
+---
+
+This README outlines a compelling approach to developing a smartphone feature classification and ranking application, combining data analysis with practical applications. Dive in to explore the world of smartphones!
+
+---
+
+Feel free to modify any section or wording to better fit your style!
